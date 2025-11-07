@@ -70,5 +70,13 @@ fun FormIsian(
             thickness = 1.dp,
             color = Color.Red
         )
+        OutlinedTextField(
+            value = "",
+            singleLine = true,
+            modifier = Modifier
+                .width(250.dp),
+            label = {Text("Alamat")},
+            onValueChange = {},
+        )
 
 }
